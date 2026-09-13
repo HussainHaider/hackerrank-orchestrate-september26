@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "run_id": "extract-20260913T075652Z",
+    "message_model": "gpt-5.4-mini",
+    "image_model": "gpt-5.4",
+    "vocabulary_model": "gpt-5.4"
+  },
+  "images": {
+    "event_10521": {
+      "image_id": "image_16",
+      "user_id": "user_113",
+      "amount": 393.22,
+      "currency": "INR",
+      "field_used": "Total",
+      "document_type": "invoice",
+      "confidence": "high"
+    },
+    "event_1442": {
+      "image_id": "image_02",
+      "user_id": "user_16",
+      "amount": 100000.0,
+      "currency": "INR",
+      "field_used": "Balance Due",
+      "document_type": "rent receipt",
+      "confidence": "high"
+    },
+    "event_1545": {
+      "image_id": "image_03",
+      "user_id": "user_17",
+      "amount": 41272.0,
+      "currency": null,
+      "field_used": "Cash Paid",
+      "document_type": "receipt",
+      "confidence": "high"
+    },
+    "event_1700": {
+      "image_id": "image_04",
+      "user_id": "user_19",
+      "amount": null,
+      "currency": "INR",
+      "field_used": "Final total not visible; only Item Bill (₹2854.00) is shown",
+      "document_type": "grocery order receipt",
+      "confidence": "low"
+    },
+    "event_1786": {
+      "image_id": "image_05",
+      "user_id": "user_20",
+      "amount": 704.05,
+      "currency": "INR",
+      "field_used": "Total (₹)",
+      "document_type": "telecom bill",
+      "confidence": "high"
+    },
+    "event_253": {
+      "image_id": "image_01",
+      "user_id": "user_03",
+      "amount": 4365000,
+      "currency": "IDR",
+      "field_used": "Net Pay",
+      "document_type": "payslip",
+      "confidence": "high"
+    },
+    "event_3051": {
+      "image_id": "image_06",
+      "user_id": "user_33",
+      "amount": 1995.0,
+      "currency": "Rupees",
+      "field_used": "Total",
+      "document_type": "tax invoice",
+      "confidence": "high"
+    },
+    "event_3231": {
+      "image_id": "image_07",
+      "user_id": "user_35",
+      "amount": 8528,
+      "currency": "INR",
+      "field_used": "Grand Total (RS)",
+      "document_type": "tax invoice",
+      "confidence": "high"
+    },
+    "event_4535": {
+      "image_id": "image_08",
+      "user_id": "user_48",
+      "amount": 15339.0,
+      "currency": "INR",
+      "field_used": "Total Amount Received",
+      "document_type": "receipt",
+      "confidence": "high"
+    },
+    "event_5170": {
+      "image_id": "image_09",
+      "user_id": "user_55",
+      "amount": 723.0,
+      "currency": "INR",
+      "field_used": "Total Amount Received",
+      "document_type": "receipt",
+      "confidence": "high"
+    },
+    "event_6033": {
+      "image_id": "image_10",
+      "user_id": "user_64",
+      "amount": 79679.26,
+      "currency": "₹",
+      "field_used": "Total",
+      "document_type": "tax invoice",
+      "confidence": "high"
+    },
+    "event_6859": {
+      "image_id": "image_11",
+      "user_id": "user_73",
+      "amount": 3650,
+      "currency": null,
+      "field_used": "Amount Payable",
+      "document_type": "hospital bill",
+      "confidence": "high"
+    },
+    "event_7307": {
+      "image_id": "image_12",
+      "user_id": "user_78",
+      "amount": 33.5,
+      "currency": "$",
+      "field_used": "Total",
+      "document_type": "taxi receipt",
+      "confidence": "high"
+    },
+    "event_7941": {
+      "image_id": "image_13",
+      "user_id": "user_84",
+      "amount": 2298,
+      "currency": "₹",
+      "field_used": "Total paid",
+      "document_type": "order receipt",
+      "confidence": "high"
+    },
+    "event_9421": {
+      "image_id": "image_14",
+      "user_id": "user_101",
+      "amount": 4543.0,
+      "currency": "Rs.",
+      "field_used": "TOTAL",
+      "document_type": "pharmacy bill",
+      "confidence": "high"
+    },
+    "event_9806": {
+      "image_id": "image_15",
+      "user_id": "user_105",
+      "amount": 9968.0,
+      "currency": "INR",
+      "field_used": "Grand Total",
+      "document_type": "airline invoice",
+      "confidence": "high"
+    }
+  }
+}

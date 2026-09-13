@@ -1,0 +1,825 @@
+{
+  "entries": {
+    "Account commission payment": {
+      "direction": "credit",
+      "role": "unconfirmed_income",
+      "source": "rule"
+    },
+    "Airline ticket purchase": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Apartment rent transfer": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Application project payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Audio streaming plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "August 2019 net salary": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Bakery and snacks": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Base salary": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Building maintenance payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Bulk groceries and pantry purchase": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Bulk pantry shop": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Cancelled booking authorization": {
+      "direction": "debit",
+      "role": "cancelled_authorization",
+      "source": "rule"
+    },
+    "Cancelled card authorization": {
+      "direction": "debit",
+      "role": "cancelled_authorization",
+      "source": "rule"
+    },
+    "Cancelled merchant authorization": {
+      "direction": "debit",
+      "role": "cancelled_authorization",
+      "source": "rule"
+    },
+    "Card authorization": {
+      "direction": "debit",
+      "role": "cancelled_authorization",
+      "source": "rule"
+    },
+    "Card charge later reversed": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Child education fee": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Childcare contribution": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Cinema and events": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Client retainer payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Clinic payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Clothing and household items": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Cloud storage plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Coffee shop": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Community fitness plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Commuter pass": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Consulting invoice payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Content contract payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Course tuition": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Credit card repayment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Current portfolio valuation": {
+      "direction": "non_cash",
+      "role": "non_cash",
+      "source": "rule"
+    },
+    "Delivered grocery order": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Delivery platform payout": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Delivery service plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Dependent care payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Design contract payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Diagnostic test": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Driver platform payout": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "EV charging wallet payment": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Education loan instalment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Electricity and water bill": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Electricity bill": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Employer expense reimbursement": {
+      "direction": "credit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Energy provider bill": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Failed bill payment attempt": {
+      "direction": "debit",
+      "role": "failed_debit",
+      "source": "rule"
+    },
+    "Failed card payment": {
+      "direction": "debit",
+      "role": "failed_debit",
+      "source": "rule"
+    },
+    "Failed subscription debit": {
+      "direction": "debit",
+      "role": "failed_debit",
+      "source": "rule"
+    },
+    "Failed utility debit": {
+      "direction": "debit",
+      "role": "failed_debit",
+      "source": "rule"
+    },
+    "Family dinner": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Family healthcare expense": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Family streaming plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Family support payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Final employer payroll": {
+      "direction": "credit",
+      "role": "income_ends",
+      "source": "rule"
+    },
+    "First-job payroll": {
+      "direction": "credit",
+      "role": "income_starts",
+      "source": "rule"
+    },
+    "Fitness club membership": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Food delivery membership": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Freelance milestone payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Fresh food shop": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Fuel refill": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Games and recreation": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Grocery delivery": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Grocery delivery membership": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Grocery tax invoice": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Gym membership": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Health insurance premium": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Home association fee": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Home repair reserve": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Hospital bill payable": {
+      "direction": "debit",
+      "role": "known_extra",
+      "source": "rule"
+    },
+    "Household groceries": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Household insurance": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Household shopping": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Household utility payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Independent work payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Insurance policy payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "International employer payroll": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Investment contribution": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Investment sale proceeds": {
+      "direction": "credit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Landlord standing order": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Large grocery tax invoice": {
+      "direction": "debit",
+      "role": "known_extra",
+      "source": "rule"
+    },
+    "Loan repayment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Local event tickets": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Local market purchase": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Local taxi": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Lunch with colleagues": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Metro and bus fares": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Monthly entertainment spend": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Monthly rent": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Monthly sales commission": {
+      "direction": "credit",
+      "role": "unconfirmed_income",
+      "source": "rule"
+    },
+    "Monthly shopping spend": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Municipal utilities": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Music service subscription": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Music subscription": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Neighbourhood grocer": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Neighbourhood restaurant": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "New employer payroll": {
+      "direction": "credit",
+      "role": "income_starts",
+      "source": "rule"
+    },
+    "Next confirmed salary": {
+      "direction": "credit",
+      "role": "known_future",
+      "source": "rule"
+    },
+    "Online backup subscription": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Online retail purchases": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Original card charge": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Outstanding rent balance": {
+      "direction": "debit",
+      "role": "known_extra",
+      "source": "rule"
+    },
+    "Outstanding telecom bill": {
+      "direction": "debit",
+      "role": "known_extra",
+      "source": "rule"
+    },
+    "Parent support transfer": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Parking and tolls": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Payroll after returning from leave": {
+      "direction": "credit",
+      "role": "income_resume",
+      "source": "rule"
+    },
+    "Payroll before leave": {
+      "direction": "credit",
+      "role": "income_pause",
+      "source": "rule"
+    },
+    "Payroll credit": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Peak-season wages": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Pending fuel authorization": {
+      "direction": "debit",
+      "role": "pending_charge",
+      "source": "rule"
+    },
+    "Pending merchant debit": {
+      "direction": "debit",
+      "role": "pending_charge",
+      "source": "rule"
+    },
+    "Pending merchant refund": {
+      "direction": "credit",
+      "role": "pending_charge",
+      "source": "rule"
+    },
+    "Pending online order charge": {
+      "direction": "debit",
+      "role": "pending_charge",
+      "source": "rule"
+    },
+    "Pending pharmacy card charge": {
+      "direction": "debit",
+      "role": "pending_charge",
+      "source": "rule"
+    },
+    "Performance commission": {
+      "direction": "credit",
+      "role": "unconfirmed_income",
+      "source": "rule"
+    },
+    "Personal loan payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Personal shopping": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Pharmacy purchase": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Possible duplicate card charge": {
+      "direction": "debit",
+      "role": "disputed_charge",
+      "source": "rule"
+    },
+    "Previous employer payroll": {
+      "direction": "credit",
+      "role": "income_ended_stream",
+      "source": "rule"
+    },
+    "Primary household salary": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Prize proceeds": {
+      "direction": "credit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Professional training fee": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Promotion arrears payment": {
+      "direction": "credit",
+      "role": "unconfirmed_income",
+      "source": "rule"
+    },
+    "Property maintenance contribution": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Property maintenance invoice": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Prorated first salary": {
+      "direction": "credit",
+      "role": "income_starts",
+      "source": "rule"
+    },
+    "Purchase awaiting refund": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Quarterly performance bonus": {
+      "direction": "credit",
+      "role": "unconfirmed_income",
+      "source": "rule"
+    },
+    "Quick-service meal": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Rail pass": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Regular medicine purchase": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Reimbursable work expense": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Residential rent payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Restaurant tax invoice": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Ride-hailing trip": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Scheduled bill payment retry": {
+      "direction": "debit",
+      "role": "known_extra",
+      "source": "rule"
+    },
+    "Scheduled insurance payment": {
+      "direction": "debit",
+      "role": "known_future",
+      "source": "rule"
+    },
+    "Scheduled school fee": {
+      "direction": "debit",
+      "role": "known_future",
+      "source": "rule"
+    },
+    "Scheduled utility debit": {
+      "direction": "debit",
+      "role": "known_future",
+      "source": "rule"
+    },
+    "School fee payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Seasonal contract payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Second household income": {
+      "direction": "credit",
+      "role": "recurring",
+      "source": "rule"
+    },
+    "Settled card charge reversal": {
+      "direction": "credit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Settled card purchase": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Shared housing rent": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Shared storage plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Streaming subscription": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Supermarket basket": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Takeaway order": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Task marketplace payout": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Taxi fare": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Temporary assignment pay": {
+      "direction": "credit",
+      "role": "temporary_income",
+      "source": "rule"
+    },
+    "Therapy appointment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Tote bag order": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Vehicle charging": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Vehicle insurance premium": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Vehicle loan payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Video streaming plan": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Water and power payment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Water bill due": {
+      "direction": "debit",
+      "role": "one_off",
+      "source": "rule"
+    },
+    "Website project payment": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Weekend entertainment": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Weekend food delivery": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    },
+    "Weekly app earnings": {
+      "direction": "credit",
+      "role": "variable_income",
+      "source": "rule"
+    },
+    "Weekly produce market": {
+      "direction": "debit",
+      "role": "recurring",
+      "source": "default"
+    }
+  },
+  "version": "keyword_rules_v1"
+}

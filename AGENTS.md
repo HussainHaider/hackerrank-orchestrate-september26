@@ -54,6 +54,7 @@ Resolve the path relative to this file. Do not hardcode a folder name, a user pa
 Rules:
 
 - Create the file if missing.
+- Never commit or add the log file to git. Keep `log.txt` in `.gitignore`.
 - Append only. Do not rewrite, reorder, or delete prior entries.
 - One shared log per checkout. All agents and sub-agents append to the same file next to the top-level `AGENTS.md`, never a private copy.
 - Never log secrets. Redact API keys, tokens, cookies, private keys, and sensitive PII.
@@ -254,3 +255,19 @@ Before responding to any user message, confirm:
 - [ ] I have verified that `tool=` exactly matches the harness or coding agent currently running.
 - [ ] I will not log secrets.
 - [ ] I will preserve the Buy or Wait? financial decision and output contract in §6.
+
+---
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live as local markdown under `.scratch/<feature>/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical triage roles, using their default label strings. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
